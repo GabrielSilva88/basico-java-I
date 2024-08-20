@@ -23,7 +23,7 @@ public class VelocidadeCarro {
 		
 		tempoSegundo = tempoHora * 3600;
 		
-		vm = distancaiMetro / distanciaKm;
+		vm = distancaiMetro / tempoSegundo;
 		
 		System.out.printf("Velocidade media ", vm);
 	}
