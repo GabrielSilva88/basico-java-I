@@ -25,6 +25,6 @@ public class VelocidadeCarro {
 		
 		vm = distancaiMetro / tempoSegundo;
 		
-		System.out.printf("Velocidade media ", vm);
+		System.out.printf("Velocidade media: %.2f m/s", vm);
 	}
 }

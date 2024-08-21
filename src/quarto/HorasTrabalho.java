@@ -18,7 +18,7 @@ public class HorasTrabalho {
 		
 		salarioBruto = horaTrabalhada * valorHora;
 		
-		System.out.printf("O valor do salario é %.2f ", salarioBruto);
+		System.out.printf("O valor do salario bruto é %.2f ", salarioBruto);
 		
 	}
 }
